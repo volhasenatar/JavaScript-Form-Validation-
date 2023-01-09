@@ -1,0 +1,51 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group,
+button {
+  margin-top: 20px;
+}
+.form-check {
+  display: flex;
+  flex-direction: row;
+}
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.input {
+  width: 20%;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  border: 1px solid rgb(175, 170, 170);
+  padding: 5px;
+  border-radius: 6px;
+}
+input:focus {
+  border: 1px solid rgb(76, 126, 235);
+}
+.form-check-input {
+  width: min-content;
+}
+span {
+  color: red;
+  font-size: 15px;
+}
+button {
+  width: max-content;
+  padding: 10px;
+  background-color: rgb(76, 126, 235);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
